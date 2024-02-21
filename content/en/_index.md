@@ -1,77 +1,53 @@
 ---
-title: Goldydocs
+title: Topola
 ---
 
-{{< blocks/cover title="Welcome to Goldydocs: A Docsy Example Project!" image_anchor="top" height="full" >}}
+{{< blocks/cover title="Welcome to Topola, the newest child of Mikołaj Wielgus!" image_anchor="top" height="full" >}}
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
-  Learn More <i class="fas fa-arrow-alt-circle-right ms-2"></i>
+  Learn more <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/google/docsy-example">
-  Download <i class="fab fa-github ms-2 "></i>
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="https://codeberg.org/mikolaj/topola">
+  Download <i class="fas fa-brands fa-git-alt ms-2"></i>
 </a>
-<p class="lead mt-5">Porridge temperature assessment &mdash; in the cloud!</p>
+<p class="lead mt-5">Topological (rubberband) router for printed circuit boards</p>
 {{< blocks/link-down color="info" >}}
 {{< /blocks/cover >}}
 
 
 {{% blocks/lead color="primary" %}}
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
+Topola is an open-source topological (rubberband) router for printed circuit boards (PCBs). Unlike traditional maze routers, topological routers like Topola are not constrained by a grid or 45° angles, allowing for more efficient circuit board layouts (denser arrangement of components and traces, lower crosstalk, reflection, and electromagnetic interference). The goal of the project is to develop a dutifully maintained engine for interactive and automatic routing that can be used both as a standalone application and reusable software library integrated in popular open-source PCB electronic design automation (EDA) packages, giving designers a tool for developing high-quality open hardware designs without having to pay for expensive proprietary software.
 
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
 {{% /blocks/lead %}}
 
 
 {{% blocks/section color="dark" type="row" %}}
-{{% blocks/feature icon="fa-lightbulb" title="New chair metrics!" %}}
-The Goldydocs UI now shows chair size metrics by default.
+{{% blocks/feature icon="fa-solid fa-users" title="Talk to us" %}}
+Join the official [Matrix chatroom](https://matrix.to/#/%23topola:tchncs.de) or [IRC channel](https://webchat.oftc.net/?channels=#topola) to talk with the developers. 
 
-Please follow this space for updates!
+Both chatrooms are bridged, so it does not matter which one you join.
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!" url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls) contributions workflow on **GitHub**. New users are always welcome!
+{{% blocks/feature icon="fas fa-brands fa-git-alt" title="Contributions welcome!" url="https://codeberg.org/mikolaj/topola" %}}
+We do a [Pull Request](https://codeberg.org/mikolaj/topola/pulls) contributions workflow on **Codeberg**. New users are always welcome!
 {{% /blocks/feature %}}
 
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!" url="https://twitter.com/docsydocs" %}}
-For announcement of latest features etc.
+{{% blocks/feature icon="fas fa-solid fa-download" title="Download" url="https://codeberg.org/mikolaj/topola" %}}
+Download Topola and have fun!
 {{% /blocks/feature %}}
-
 
 {{% /blocks/section %}}
 
 
-{{% blocks/section %}}
-This is the second section
+{{% blocks/section type="nlnet" %}}
+Topola is sponsored by [NLNet](https://nlnet.nl/project/Topola/).
 {.h1 .text-center}
-{{% /blocks/section %}}
 
+[![nlnet logo][]][nlnet]
+[![ngi logo][]][ngi]
 
-{{% blocks/section type="row" %}}
-
-{{% blocks/feature icon="fab fa-app-store-ios" title="Download **from AppStore**" %}}
-Get the Goldydocs app!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-github" title="Contributions welcome!"
-    url="https://github.com/google/docsy-example" %}}
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
-{{% /blocks/feature %}}
-
-{{% blocks/feature icon="fab fa-twitter" title="Follow us on Twitter!"
-    url="https://twitter.com/GoHugoIO" %}}
-For announcement of latest features etc.
-{{% /blocks/feature %}}
-
-{{% /blocks/section %}}
-
-
-{{% blocks/section %}}
-This is the another section
-{.h1 .text-center}
+[nlnet logo]: /img/logos/nlnet.svg
+[nlnet]: https://nlnet.nl/
+[ngi logo]: /img/logos/ngi0_entrust_banner.svg
+[ngi]: https://www.ngi.eu/ngi-projects/ngi-zero-entrust/
 {{% /blocks/section %}}

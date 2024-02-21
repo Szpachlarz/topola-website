@@ -1,5 +1,5 @@
 ---
-title: About Goldydocs
+title: About Topola
 linkTitle: About
 menu: {main: {weight: 10}}
 ---

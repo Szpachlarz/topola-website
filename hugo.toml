@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Topola"
 
 # Language settings
 contentDir = "content/en"
@@ -59,26 +59,8 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
-title = "Goldydocs"
-description = "A Docsy example site"
-
-[languages.no]
-languageName ="Norsk"
-contentDir = "content/no"
-[languages.no.params]
-title = "Goldydocs"
-description = "Docsy er operativsystem for skyen"
-time_format_default = "02.01.2006"
-time_format_blog = "02.01.2006"
-
-[languages.fa]
-languageName ="فارسی"
-contentDir = "content/fa"
-[languages.fa.params]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
+title = "Topola"
+description = "Topola, the interactive topological router"
 
 [markup]
   [markup.goldmark]
@@ -99,7 +81,7 @@ time_format_blog = "2006.01.02"
 section = ["HTML", "print", "RSS"]
 
 [params]
-privacy_policy = "https://policies.google.com/privacy"
+# privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -144,15 +126,15 @@ offlineSearch = false
 prism_syntax_highlighting = false
 
 [params.copyright]
-  authors = "Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) | "
-  from_year = 2018
+  authors = "Topola | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0)"
+  from_year = 2023
 
 # User interface configuration
 [params.ui]
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 # Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top navbar
-navbar_logo = true
+navbar_logo = false
 # Set to true if you don't want the top navbar to be translucent when over a `block/cover`, like on the homepage.
 navbar_translucent_over_cover_disable = false
 # Enable to show the side bar menu in its compact state.
@@ -214,7 +196,7 @@ enable = false
 
 [module]
   # Uncomment the next line to build and serve using local docsy clone declared in the named Hugo workspace:
-  # workspace = "docsy.work"
+  workspace = "docsy.work"
   [module.hugoVersion]
     extended = true
     min = "0.110.0"
