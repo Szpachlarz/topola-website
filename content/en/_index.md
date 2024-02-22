@@ -2,10 +2,10 @@
 title: Topola
 ---
 
-{{< blocks/cover title="Welcome to Topola, the newest child of Mikołaj Wielgus!" image_anchor="top" height="full" >}}
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+{{< blocks/cover title="Topola" height="full" >}}
+<!--<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
   Learn more <i class="fas fa-arrow-alt-circle-right ms-2"></i>
-</a>
+</a>-->
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://codeberg.org/mikolaj/topola">
   Download <i class="fas fa-brands fa-git-alt ms-2"></i>
 </a>
